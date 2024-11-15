@@ -1,0 +1,36 @@
+## A Brief History of JavaScript
+
+- In 1995,  Brendan Eich creates first version of java scripts in just 10 days which was called mocha ( not a java scripts yet )
+- In 1996, Mocha change to live scripts and then to JavaScript.
+- In 1997, after a need to standardize the language, ECMA releases ECMAScript 1 (ES1), the first official standard for JavaScript.
+- In 2009 ES5 is released with lots of new features.
+- In 2015 The biggest update to the language ever.
+- From 2016 - Now New Update a year 2017…..2018…..2024…..2090…..go on….
+
+## Backwards compatibility: Don’t break the web
+
+- Old code will run in modern JavaScript Engine.
+- Old features are never removed.
+- Websites keep working forever.
+- JavaScript is backward compatible but not forward compatible.
+
+## How to use Modern JavaScript Today
+
+Two  things scenario
+
+- Development
+- Production
+
+ES5
+
+Fully Supported in all browsers
+
+ES6
+
+Well supported in all modern browsers 
+
+## Modern JavaScript From the beginning
+
+before modern JavaScript
+
+(e.g.. const & let vs var and function constructors vs ES6 class)
