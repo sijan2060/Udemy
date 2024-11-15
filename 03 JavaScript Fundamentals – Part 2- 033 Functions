@@ -1,0 +1,73 @@
+- The Fundamental building block of real world javascripts application  are called Function.
+- Functions are the piece of code which can be used over and over again in our code.
+
+To Declare Function 
+
+```bash
+function logger() {
+    console.log('My name is Sijan');
+}
+```
+
+Here , The line ‘My name is Sijan’  can be used multiple time. So we will used this code. 
+
+To use the function also called as runnig/ calling / invoking  the function.
+
+```bash
+function logger() {
+    console.log('My name is Sijan');
+}
+
+logger();
+logger();
+logger();
+logger();
+
+```
+
+Here I have use function “ logger() ; “  four time so “ My name is Sijan “ now will be printed four a time.
+
+Example 
+
+Let imagine the fruit processor and processor ;process which is called function  and in the end  it became juice.
+
+- Here in a first line of code apples, oranges are called parameters.
+
+```bash
+function fruitProcessor(apples, oranges) {
+    console.log(apples, oranges);
+    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+    return juice;
+}
+
+const applesJuice = fruitProcessor(5, 0);
+console.log(applesJuice);
+console.log(fruitProcessor(5, 0));
+```
+
+We can use with different input value to get different output.
+
+```bash
+function fruitProcessor(apples, oranges) {
+    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+    return juice;
+}
+
+const applesJuice = fruitProcessor(5, 0);
+console.log(applesJuice);
+
+const appleOranageJuice = fruitProcessor(2, 4);
+console.log(appleOranageJuice);
+```
+
+### Function allow us to write more  maintable code because from the function we can create, reuse the code again and again all time.
+
+### Very important  principle writing clean code use in programming and this principle is called Don’t Repeat YourSelf Or “DRY”
+
+- Function that we used to convert string to number
+
+```bash
+const num = Number('19')
+```
+
+To check go to  console   and type num. Output will be appeared as Number you have put. For eg i have put 19.
